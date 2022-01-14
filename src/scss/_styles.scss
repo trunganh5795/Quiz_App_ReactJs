@@ -1,0 +1,13 @@
+@import "./variables";
+@import "./mixins";
+
+
+//Basic:
+@import "./basic/reset";
+@import "./basic/typography";
+@import "./basic/utilities";
+//component style
+@import "./components/answerscard";
+@import "./pages/home";
+@import "./components/loading";
+@import "./components/difficulty"

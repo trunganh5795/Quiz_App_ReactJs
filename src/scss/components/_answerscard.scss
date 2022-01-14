@@ -1,0 +1,34 @@
+.question_card {
+    color: $color-border;
+    // font-weight: $f-weight;
+    text-align: center;
+    font-size: 1.5 * $fz-body;
+    padding: 10px;
+    background-color: $light-color-bg-body;
+    padding: 30px 20px;
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+    p{
+        padding-bottom: 20px;
+    }
+    .answer_card {
+        background-color: $color-ans;
+        margin-bottom: 5px;
+        border-radius: 10900px;
+        color: $color-light;
+        cursor: pointer;
+        p {
+            padding: 10px;
+        }
+        &_choose {
+            background-color: $color-ans-choose;
+        }
+        &_correct{
+            background-color: $color_ans_correct;
+        }
+    }
+    .active {
+        background-color: $color-ans-choose;
+    }
+}

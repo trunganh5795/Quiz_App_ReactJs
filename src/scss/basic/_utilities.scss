@@ -1,0 +1,20 @@
+.normal__color {
+    color: $color-theme;
+}
+.danger__color {
+    color: $color-danger;
+}
+.warning__color {
+    color: $color-warning;
+}
+.center_flex {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.center_flex_abs {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
